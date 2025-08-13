@@ -1,0 +1,46 @@
+/* Hero Section Style */
+.hero{
+    background-image: url(../../img/img.bg/hero.png);
+    background-size: cover;
+    color: white;
+    padding:100px 428px;
+
+
+    &__title{
+        font-size: 72px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &__text{
+        width: 495px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 45px;
+    }
+
+    &__recipe{
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    &__span{
+        position: relative;
+        top: 3px;
+        display: inline-block;
+        width: 19px;
+        height: 23px;
+        background-color: #A7E56D;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 15px;
+        margin-right: 10px;
+    }
+
+    &__time{
+        color: #A7E56D;
+    }
+}

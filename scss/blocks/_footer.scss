@@ -1,0 +1,64 @@
+  /* Footer section Style */
+  .footer{
+    background-color:black;
+    padding: 40px 0 40px 297px;
+
+
+    &__img{
+        margin-right: 233px;
+    }
+
+    &__link{
+        margin-right: 65px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #646468;
+    }
+
+    &__link:hover{
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+
+    &__top{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    &__bottom{
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+
+    &__subtitle{
+        color: #646468;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        margin-right: 50px;
+    }
+
+    &__time{
+        margin-left: 294px;
+    }
+
+    &__social{
+        width: 46px;
+        height: 46px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #659D2E1A;
+        color: #659D2E;
+        border-radius: 30px;
+        margin-right: 10px;
+    }
+  }
+
+.appstore{
+    margin-left: 50px;
+    margin-right: 25px;
+}

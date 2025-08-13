@@ -1,0 +1,98 @@
+/* Steps Section Style */
+.steps{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url(../../img/img.bg/backgrount.png);
+    background-size: cover;
+
+
+    &__title{
+        display: flex;
+        margin: 0 auto;
+         width: 685px;
+         text-align: start;
+         color: white;
+         font-size: 24px;
+         font-weight: 300;
+         line-height: 32px;
+    }
+
+    &__list{
+        display: flex;
+        margin-top: 50px;
+        gap: 70px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__item{
+        width: 160px;
+        height: 154px;
+    }
+
+    &__check{
+        background-color: #EB8E22;
+        width: 23px;
+        height: 23px;
+        text-align: center;
+        border-radius: 100%;
+        margin-top: 30px;
+        color: white;
+        display: inline-block;
+    }
+
+    &__subtitle{
+        width: 158px;
+        font-size: 16px;
+        line-height: 100%;
+        font-weight: 500;
+        color: white;
+        margin-top: 10px;
+    }
+
+    &__dashed{
+        position: relative;
+        display: inline-block;
+        border-bottom:2px dashed #646468;
+        width: 950px;
+        top:-35px;
+        margin-bottom: 100px;
+        text-align: start;
+        gap: 50px;
+        left: -100px;
+    }
+
+    &__circle{
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        border-radius: 200px;
+        background-color: #424245;
+        position: relative;
+        top: 12px;
+    }
+}
+
+.hover{
+    margin-top: 20px;
+    background-color: #EB8E221A;
+    width: 151px;
+    height: 232px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 15px;
+    text-align: start;
+    padding-left: 15px;
+    padding-top: 23px;
+
+
+    &__sub{
+        color: #659D2E !important;
+    }
+}
+
+.circulate{
+    margin-left: 217px;
+}

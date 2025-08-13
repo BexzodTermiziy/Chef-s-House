@@ -1,0 +1,134 @@
+/* App Download Section Style */
+.app-download{
+    background-color: #1E1E21;
+    padding: 75px 0 100px 312px;
+
+
+    &--img{
+        position: absolute;
+        top: -105px;
+        left: -50px;
+    }
+}
+
+.download__section{
+    position: relative;
+    background-image: url('../../img/mobile.right.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: center;
+    width: 1292px;
+    height: 316px;
+    border-radius: 25px;
+    background-color: #FFFFFF05;
+    display: flex;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.download__box{
+    margin-left: -100px;
+}
+
+.download__title{
+    margin-top: 56px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    width: 450px;
+    margin-bottom: 55px;
+}
+
+.download__app{
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #A7E56D;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+.download__btn{
+    position: absolute;
+    top: 130px;
+    left: 750px;
+    width: 292px;
+    height: 53px;
+    color: white;
+    border-top-left-radius: 122px;
+    border-top-right-radius: 61px;
+    border-bottom-right-radius: 61px;
+    border-bottom-left-radius: 24px;
+    background-color: #659D2E99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26.97px;
+}
+
+.download__span{
+    font-size: 20px;
+    color: #fa9a4b;
+    margin-right: 5px;
+}
+
+.download__strong{
+    position: absolute;
+    top: 200px;
+    left: 860px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 19px;
+    width: 270px;
+}
+
+.user-account {
+    display: flex;
+    align-items: center;
+    width: 1292px;
+    box-sizing: border-box;
+    height: 216px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-image: 
+      url('../img/person.png'),
+      url('../img/oshxona.png');
+    background-size: 40% 100%, 60% 100%;
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 35%;
+  }
+  
+  .content--title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #151517;
+    margin-bottom: 10px;
+  }
+  
+  .content--text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #151517;
+  }
+  
+  .content__link {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 150px;
+  }
+  
+  .content__link:hover {
+    background-color: #45a049;
+  }

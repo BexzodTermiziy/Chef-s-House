@@ -1,0 +1,28 @@
+/* Box Section Style */
+.boxs{
+    display: flex;
+    background-image: url('../../img/img.bg/bottons.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 25px;
+    padding: 65px 0 95px 0;
+}
+
+.box{
+    border-radius: 100px;
+    background-color: #A7E56D1A;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+    &__subtitle{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        color: #659D2E;
+    }
+}
